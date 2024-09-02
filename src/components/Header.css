@@ -1,0 +1,58 @@
+/* Header.css */
+.header {
+    background-color: #003366; /* رنگ آبی تیره */
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    width: 100%; /* طول 100 درصد */
+    box-sizing: border-box; /* شامل padding و border در محاسبه عرض */
+    position: fixed; /* ثابت در بالای صفحه */
+    top: 0; /* در بالای صفحه قرار می‌گیرد */
+    left: 0; /* از سمت چپ صفحه شروع می‌شود */
+
+}
+
+.header h2 {
+    margin: 0;
+}
+
+.header input {
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 10px;
+    width: 300px;
+    outline: none;
+    text-align: center;
+}
+
+.header button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0066cc;
+    color: white;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background-color: #009938;
+}
+
+.delete-all-contacts{
+    position: fixed;
+    top: 11%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: #0066cc;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.delete-all-contacts:hover {
+    background-color: #ff0000;
+    text-decoration: underline;
+}
